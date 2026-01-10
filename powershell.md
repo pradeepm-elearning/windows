@@ -1,0 +1,11 @@
+### WINDOWS 
+
+#### WINDOWS POWERSHELL - COMMANDS
+
+1. ALLOWS LOCALLY CREATED SCRIPTS TO RUN WITHOUT FULL UNRESTRICTED PERMISSIONS.
+`Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
+
+2. CHECK LAPTOP/DESKTOP SERIAL NUMBER.
+`Get-CimInstance Win32_BIOS | Format-List SerialNumber`
+
+3. 
